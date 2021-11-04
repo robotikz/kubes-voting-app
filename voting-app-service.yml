@@ -6,7 +6,7 @@ metadata:
     name: voting-service
     app: domo-voting-app
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     name: voting-app-pod
     app: demo-voting-app
