@@ -23,7 +23,7 @@ spec:
           image: kodekloud/examplevotingapp_result:v1
           resources:
             limits:
-              memory: "128Mi"
-              cpu: "500m"
+              memory: "64Mi"
+              cpu: "128m"
           ports:
             - containerPort: 80
